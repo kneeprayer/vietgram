@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile | Vietgram</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="navigation__column">
+            <a href="feed.html">
+                <img src="images/logo.png" />
+            </a>
+        </div>
+        <div class="navigation__column">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="navigation__column">
+            <ul class="navigations__links">
+                <li class="navigation__list-item">
+                    <a href="explore.html" class="navigation__link">
+                        <i class="fa fa-compass fa-lg"></i>
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a href="#" class="navigation__link">
+                        <i class="fa fa-heart-o fa-lg"></i>
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a href="profile.html" class="navigation__link">
+                        <i class="fa fa-user-o fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main id="edit-profile">
+			<div class="edit-profile__menu">
+				<ul>
+					<li>
+						<a href="accounts/edit/">Edit Profile</a>
+					</li>
+					<li>
+						<a href="accounts/password/change/">Change Password</a>
+					</li>
+					<li>
+						<a href="accounts/manage_access">Authorized Applications</a>
+					</li>
+					<li>
+						<a href="accounts/comment_filter">Comments</a>
+					</li>	
+					<li>
+						<a href="emails/settings">Emails and SMS</a>
+					</li>	
+					<li>
+						<a href="accounts/contact_history">Manage Contacts</a>
+					</li>	
+				</ul>
+			</div>
+			<div class="edit-profile__article">
+					<div class="edit-profile__user-column">
+						<img src="images/avatar.jpg" class="explore__avatar">
+						<div class="edit-profile__info">
+							<span class="edit-profile__username">inthetiger</span>
+						</div>
+					</div>
+					<form action="edit-profile">
+						<ul class="edit-priofle__article">
+							<li>
+								<span>Name</span>
+								<input type="text" name="fullname" value="Seunghoon Lee" />
+							</li>
+							<li>
+								<span>Username</span>
+								<input type="text" name="username" value="kneeprayer_91" />
+							</li>
+							<li>
+								<span>Website</span>
+								<input type="text" name="myWebsite" value="" />
+							</li>
+							<li>
+								<span>Bio</span>
+								<textarea name="bio" value=""></textarea>
+							</li>
+							<span class="edit-priofle__article--transparent">
+								Private Information
+							</span>
+							<li>
+								<span>Email</span>
+								<input type="text" name="email" value="kneeprayer@gmail.com" />
+							</li>
+							<li>
+								<span>Phone Number</span>
+								<input type="text" name="phonenumber" value="+81 XXX-XXX-XXXX" />
+							</li>
+							<li>
+								<span>Gender</span>
+								<select name="gender">
+									<option value="male">Male</option>
+									<option value="female">Female</option>
+									<option value="notspecified" selected>Not Specified</option>
+								</select>
+							</li>
+							<li>
+								<span>Similar Account Suggestions</span>
+								<input type="checkbox" name="similar" />
+								Include your account when recommending similar accounts people might want to follow.
+							</li>
+						</ul>
+						<input type="submit" value="Submit" />
+						<a href="#">Temporarily disable my account</a>
+					</form>
+			</div>
+    </main>
+    <footer class="footer">
+            <div class="footer__column">
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a href="#" class="footer__link">About Us</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__link">Support</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__link">Blog</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__link">Press</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__link">Api</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__link">Jobs</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__link">Privacy</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__link">Terms</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__link">Directory</a></li>
+                        <li class="footer__list-item"><a href="#" class="footer__link">Language</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__column">
+                <span class="footer__copyright">© 2017 Vietgram</span>
+            </div>
+        </footer>
+</body>
+</html>
