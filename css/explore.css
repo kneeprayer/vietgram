@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: var(border-property);
+  border-bottom: var(--border-property);
 }
 
 .explore__users .explore__user:last-child {
