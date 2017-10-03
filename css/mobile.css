@@ -1,8 +1,22 @@
 @media screen and (min-width: 375px) and (max-width: 667px) {
-  .navigation {
+	#login .login__column:first-child{
+		display: none;
+	}
+
+	#login .login__column{
+		width:100%;
+	}
+	
+	.login__column .login__box{
+		padding-left: 0px;
+		padding-right: 0px;
+	}	
+
+	.navigation {
     padding: 0 20px;
     margin-bottom: 0;
-  }
+	}
+
   .navigation input,
   .navigation .fa-search {
     display: none;
